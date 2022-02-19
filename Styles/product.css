@@ -1,0 +1,26 @@
+main{
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+.filter{
+    width: 18VW;
+    min-width: 250px;
+    top: 9vh;
+    overflow-y: auto;
+    height: 92vh;
+    border: 2px solid lightgray;
+    position: sticky;
+}
+.main-content{
+    box-sizing: border-box;
+    width: 80VW;
+    display: grid;
+    grid-gap: 2rem;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 18rem);
+    transition: 1s ease-in-out;
+    
+}
+.card-v:hover{
+    transform: scale(1.03);
+}
