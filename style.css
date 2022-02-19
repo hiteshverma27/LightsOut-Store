@@ -3,6 +3,7 @@
 :root {
   --accent-color: red;
   --lightgrey: lightgrey;
+  --red:red;
 }
 body {
   overflow-x: hidden;

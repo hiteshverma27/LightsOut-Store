@@ -1,0 +1,8 @@
+.cart-manage-main{
+    min-height: calc(100vh - 64px);
+    align-items: flex-start;
+    justify-content: center;
+}
+.price-details{
+    border: 2px solid var(--lightgrey);
+}

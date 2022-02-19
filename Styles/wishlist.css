@@ -1,0 +1,14 @@
+.wishlist-main-div{
+    box-sizing: border-box;
+    width: 100vw;
+    display: grid;
+    grid-gap: 2rem;
+    justify-content: center;
+    grid-template-columns: repeat(auto-fill, 18rem);
+    transition: 1s ease-in-out;
+    min-height: calc(100vh - 64px);
+
+}
+.wishlist-icon-red{
+    color: var(--red);
+}
