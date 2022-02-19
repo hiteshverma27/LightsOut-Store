@@ -2,6 +2,7 @@
 
 :root {
   --accent-color: red;
+  --lightgrey: lightgrey;
 }
 body {
   overflow-x: hidden;
@@ -35,12 +36,12 @@ nav {
   line-height: 6rem;
 }
 .catagory div {
-  outline: 2px solid lightgray;
+  outline: 2px solid var(--lightgrey);
   height: 20rem;
   width: 20rem;
 }
 .text-overlay {
-  background-color: lightgray;
+  background-color: var(--lightgrey);
   font-weight: bold;
   font-size: 150%;
 }
