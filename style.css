@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --accent-color: red;
+}
+body{
+    overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+.header-text{
+    top: 70%;
+    color: white;
+}
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 500;
+}
+.shop-now-btn{
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+}
+.explore-section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50vh;
+    width: 100%;
+}
+.hover-img:hover{
+    transform: scale(1.02);
+    transition: .2s ease-in-out;
+}
+
+.catagory div{
+    outline: 2px solid lightgray;
+    height: 20rem;
+    width: 20rem;
+}
+.text-overlay{
+    background-color: lightgray;
+    font-weight: bold;
+    font-size: 150%;
+
+}
+.shop-now-btn:hover{
+    transform: translateX(1rem) scale(1.05);
+    transition: .2s ease-in-out;
+}
+footer{
+    background-color: var(--primary-color);
+    color: white;
+}
+a:hover{
+    color: var(--accent-color);
+    transition: .2s ease-in-out;
+}
+.hr-color-accent{
+    border: 1px solid var(--accent-color);
+}
