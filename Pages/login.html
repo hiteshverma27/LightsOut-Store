@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://orcaui.netlify.app/styles/main.css" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/Styles/login.css">
     <link rel="shortcut icon" href="/Assets/favicon.svg" type="image/x-icon">
     <meta name="author" content="Hitesh Verma">
     <meta name="description" content="Shop from the best collection of motorsport posters.">
-    <title>Home | LightsOut</title>
+    <title>LogIn | LightsOut</title>
 </head>
 
 <body>
@@ -21,7 +22,7 @@
         <input type="search" class="input w-40per" placeholder="Search LightsOut" />
         <ul class="flex-space_between-center">
             <li class="mx-2">
-                <a href="/Pages/login.html"><button class="btn-primary-confirm">Login</button></a>
+                <a href="/Pages/signup.html"><button class="btn-primary-confirm">Sign Up</button></a>
             </li>
             <li class="mx-2">
                 <a href="/Pages/cart-management.html"><button class="badge-btn">
@@ -41,58 +42,33 @@
             </li>
         </ul>
     </nav>
-    <header class="relative w-100vw">
-        <img class="w-100per img-cover h-100vh " src="/Assets/wallpaperflare.com_wallpaper (1).jpg" alt="header-img">
-        <div class="center-div-method-2 header-text">
-            <h1 class="w-100vw text-align-center">For the love of Formula 1</h1><br>
-            <a class="m-auto flex-center-center shop-now-btn" href="/Pages/product.html">
-                <button class="bg-accent p-2 mt-2 flex-center-center">Shop Now <span
-                        class="material-icons icon-s3">arrow_forward_ios</span></button>
-            </a>
+    <main>
+        <div class="relative">
+            <img class="w-100per img-cover h-100vh"
+                src="https://www.mercedesamgf1.com/content/dam/brandhub/mercedes-amg-f1/wallpaper/WPW_2021_Qatar_6.png"
+                alt="header-img">
         </div>
-    </header>
-    <main class="w-100vw">
-        <div class="explore-section w-100per my-1">
-            <div class="p-3 h-50vh explore-items w-100per img-cover border-radius-2rem"><img
-                    class="h-100per w-100per img-cover hover-img"
-                    src="https://images.unsplash.com/photo-1563394779868-b02c503851fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-                    alt="main-image"></div>
-            <div class="p-3 h-50vh explore-items"><img class="h-100per w-100per img-cover hover-img"
-                    src="https://images.unsplash.com/photo-1555765093-698c20d82b2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1211&q=80"
-                    alt="main-image"></div>
+        <div class="login-div flex flex-col center-div-method-2 h-70per w-40per m-auto p-3">
+            <h2 class="my-2">Login</h2>
+            <form class="flex flex-col p-2 h-80per w-80per">
+                <label class="bold" for="email">Email Address</label><br>
+                <input type="email" class="w-100per input m-0" placeholder="Enter your email address"><br>
+                <label class="bold" for="password">Password</label><br>
+                <input type="password" class="w-100per input m-0" placeholder="Enter your password"><br>
+                <div class="flex-space_between-center">
+                    <div class="flex-center-center">
+                        <input type="checkbox" id="remember-me">
+                        <label for="remember-me" class="mx-1">Remember me</label>
+                    </div>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit" class="w-100per btn-primary-confirm my-3">Log In</button>
+                <a href="/Pages/signup.html">
+                    <button class="btn-secondary-grey m-auto">Create a new account</button>
+                </a>
+            </form>
         </div>
-        <div class="catagory w-100per flex-center-center flex-wrap p-2">
-            <div class="catagory-items m-1 p-1 relative">
-                <p class="center-div-method-2 w-100per text-align-center text-overlay py-1">Catagory</p>
-                <img class="catagory-img" src="/Assets/wallpaperflare.com_wallpaper (1).jpg" alt="catagory-img">
-            </div>
-            <div class="catagory-items m-1 p-1 relative">
 
-                <p class="center-div-method-2 w-100per text-align-center text-overlay py-1">Catagory</p>
-                <img class="catagory-img" src="/Assets/wallpaperflare.com_wallpaper (1).jpg" alt="catagory-img">
-            </div>
-            <div class="catagory-items m-1 p-1 relative">
-
-                <p class="center-div-method-2 w-100per text-align-center text-overlay py-1">Catagory</p>
-                <img class="catagory-img" src="/Assets/wallpaperflare.com_wallpaper (1).jpg" alt="catagory-img">
-            </div>
-            <div class="catagory-items m-1 p-1 relative">
-
-                <p class="center-div-method-2 w-100per text-align-center text-overlay py-1">Catagory</p>
-                <img class="catagory-img" src="/Assets/wallpaperflare.com_wallpaper (1).jpg" alt="catagory-img">
-            </div>
-            <div class="catagory-items m-1 p-1 relative">
-
-                <p class="center-div-method-2 w-100per text-align-center text-overlay py-1">Catagory</p>
-                <img class="catagory-img" src="/Assets/wallpaperflare.com_wallpaper (1).jpg" alt="catagory-img">
-            </div>
-            <div class="catagory-items m-1 p-1 relative">
-
-                <p class="center-div-method-2 w-100per text-align-center text-overlay py-1">Catagory</p>
-                <img class="catagory-img" src="/Assets/wallpaperflare.com_wallpaper (1).jpg" alt="catagory-img">
-            </div>
-
-        </div>
     </main>
     <footer class="w-100vw py-6 ">
         <div class="mx-5 flex flex-wrap flex-space_between-center">
