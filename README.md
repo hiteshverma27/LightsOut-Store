@@ -24,10 +24,10 @@ Shop posters and merchandise from the best collection of motorsport arts.
 - Cart management page
 - Wishlist management page
 - FIlters panel
+- Mobile responsive
 
-## Support and feedback
-
-For support or feedback, email hitesh.verma2711@gmail.com
+## Mobile responsiveness 
+![GIF mobile](https://user-images.githubusercontent.com/87027579/154844886-c5f3d279-bccf-4a3f-8fd2-063e8fc171b7.gif)
 
 ## Screenshots
 ![Homepage](https://user-images.githubusercontent.com/87027579/154838487-fcc3af53-0ffb-438f-8cdb-5160832c2d38.png)
@@ -36,6 +36,9 @@ For support or feedback, email hitesh.verma2711@gmail.com
 
 ![Footer](https://user-images.githubusercontent.com/87027579/154838492-07c212a0-c3ba-470c-b0a8-d8022e745a16.png)
 
+## Support and feedback
+
+For support or feedback, email hitesh.verma2711@gmail.com
 
 ## 🔗 Connect with me
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hitesh-verma-8727921b2//)
