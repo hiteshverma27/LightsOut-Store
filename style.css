@@ -1,9 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
+/* *************** Orca UI ****************** */
+
+@import url("https://orcaui.netlify.app/styles/main.css");  
+
+
 :root {
   --accent-color: red;
   --lightgrey: lightgrey;
   --red:red;
+}
+html{
+  width: 100vw;
 }
 body {
   overflow-x: hidden;
@@ -68,4 +76,56 @@ a:hover {
 }
 .text-underline{
   text-decoration: underline;
+}
+#menu-icon{
+  display: none;
+}
+#search-mobile{
+  display: none;
+}
+
+/* *********** Media queries for mobile ************* */
+
+@media screen and (max-width: 425px){
+  #nav{
+    width: 100%;
+    padding: 1rem;
+  }
+  #search-bar-nav{
+    display: none;
+  }
+  #search-mobile{
+    display: block;
+  }
+  header h1{
+    line-height: 8rem;
+  }
+  header img{
+  object-fit: none;
+  width: 100%;
+  left: 10rem;
+  }
+  .filter{
+    display: none;
+  }
+  #main-content-products{
+    width: 100vw;
+  }
+  .cart-manage-main{
+    flex-direction: column;
+  }
+  .cart-manage-main{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+  .price-details{
+    width: 90vw;
+    margin: auto;
+  }
+  #card-horizontal{
+    width: 100vw;
+    padding: 0;
+    border: none;
+  }
 }

@@ -3,8 +3,8 @@ main{
     grid-template-columns: auto 1fr;
 }
 .filter{
-    width: 18vw;
-    min-width: 250px;
+    width: 15vw;
+    /* min-width: 30vw; */
     top: 9vh;
     overflow-y: auto;
     height: 92vh;

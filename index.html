@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://orcaui.netlify.app/styles/main.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/Assets/favicon.svg" type="image/x-icon">
     <meta name="author" content="Hitesh Verma">
@@ -14,12 +13,12 @@
 </head>
 
 <body>
-    <nav class="w-100vw flex-space_between-center px-10 py-1 bg-white">
+    <nav class="w-100vw flex-space_between-center px-10 py-1 bg-white" id="nav">
         <a href="/index.html">
             <h2>LightsOut</h2>
         </a>
-        <input type="search" class="input w-40per" placeholder="Search LightsOut" />
-        <ul class="flex-space_between-center">
+        <input type="search" class="input w-40per" placeholder="Search LightsOut" id="search-bar-nav" />
+        <ul class="flex-space_between-center" id="nav-icons">
             <li class="mx-2">
                 <a href="/Pages/login.html"><button class="btn-primary-confirm">Login</button></a>
             </li>
@@ -40,8 +39,10 @@
                     </button></a>
             </li>
         </ul>
+        <span class="material-icons icon-sm" id="menu-icon">menu</span>
     </nav>
     <header class="relative w-100vw">
+        <input type="search" class="input w-100per m-auto flex-center-center" placeholder="Search LightsOut" id="search-mobile"/>
         <img class="w-100per img-cover h-100vh " src="/Assets/wallpaperflare.com_wallpaper (1).jpg" alt="header-img">
         <div class="center-div-method-2 header-text">
             <h1 class="w-100vw text-align-center">For the love of Formula 1</h1><br>
@@ -94,9 +95,9 @@
 
         </div>
     </main>
-    <footer class="w-100vw py-6 ">
+    <footer class="w-100vw pb-2">
         <div class="mx-5 flex flex-wrap flex-space_between-center">
-            <div class="mb-auto">
+            <div class="mb-auto my-5">
                 <a href="/index.html">
                     <h2>LightsOut</h2>
                 </a>
@@ -115,7 +116,7 @@
                     <img class="m-1 mt-3" src="/Assets/linkedin.svg" alt="linkedin">
                 </a>
             </div>
-            <div class="mb-auto">
+            <div class="mb-auto my-5">
                 <h2>Catagory</h2>
                 <hr class="my-2 hr-color-accent">
                 <ul class="font-size-large font-color-grey">
@@ -125,7 +126,7 @@
                     <li class="my-1"><a href="#">Garments</a></li>
                 </ul>
             </div>
-            <div class="mb-auto">
+            <div class="mb-auto my-5">
                 <h2>Account</h2>
                 <hr class="my-2 hr-color-accent">
                 <ul class="font-size-large font-color-grey">
@@ -136,7 +137,7 @@
                     <li class="my-1"><a href="#">Priacy Policy</a></li>
                 </ul>
             </div>
-            <div class="mb-auto pr-3">
+            <div class="mb-auto my-5 pr-3">
                 <h2>Contact</h2>
                 <hr class="my-2 hr-color-accent">
                 <ul class="font-size-large font-color-grey">

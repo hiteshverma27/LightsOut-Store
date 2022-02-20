@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://orcaui.netlify.app/styles/main.css" />
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/Styles/login.css" />
     <link rel="shortcut icon" href="/Assets/favicon.svg" type="image/x-icon" />
@@ -17,16 +16,16 @@
   </head>
 
   <body>
-    <nav class="w-100vw flex-space_between-center px-10 py-1 bg-white">
+    <nav class="w-100vw flex-space_between-center px-10 py-1 bg-white" id="nav">
       <a href="/index.html">
         <h2>LightsOut</h2>
       </a>
-      <input
+      <input id="search-bar-nav"
         type="search"
         class="input w-40per"
         placeholder="Search LightsOut"
       />
-      <ul class="flex-space_between-center">
+      <ul class="flex-space_between-center" id="nav-icons">
         <li class="mx-2">
           <a href="/Pages/login.html"
             ><button class="btn-primary-confirm">Login</button></a
@@ -108,9 +107,9 @@
         </form>
       </div>
     </main>
-    <footer class="w-100vw py-6">
+    <footer class="w-100vw pb-2">
       <div class="mx-5 flex flex-wrap flex-space_between-center">
-        <div class="mb-auto">
+        <div class="mb-auto my-2">
           <a href="/index.html">
             <h2>LightsOut</h2>
           </a>
@@ -142,7 +141,7 @@
             <img class="m-1 mt-3" src="/Assets/linkedin.svg" alt="linkedin" />
           </a>
         </div>
-        <div class="mb-auto">
+        <div class="mb-auto my-2">
           <h2>Catagory</h2>
           <hr class="my-2 hr-color-accent" />
           <ul class="font-size-large font-color-grey">
@@ -152,7 +151,7 @@
             <li class="my-1"><a href="#">Garments</a></li>
           </ul>
         </div>
-        <div class="mb-auto">
+        <div class="mb-auto my-2">
           <h2>Account</h2>
           <hr class="my-2 hr-color-accent" />
           <ul class="font-size-large font-color-grey">
@@ -163,7 +162,7 @@
             <li class="my-1"><a href="#">Priacy Policy</a></li>
           </ul>
         </div>
-        <div class="mb-auto pr-3">
+        <div class="mb-auto my-2 pr-3">
           <h2>Contact</h2>
           <hr class="my-2 hr-color-accent" />
           <ul class="font-size-large font-color-grey">
