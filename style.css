@@ -9,6 +9,7 @@
   --accent-color: red;
   --lightgrey: lightgrey;
   --red:red;
+  --white: white;
 }
 html{
   width: 100vw;
@@ -19,7 +20,7 @@ body {
 }
 .header-text {
   top: 70%;
-  color: white;
+  color: var(--white);
 }
 nav {
   position: sticky;
@@ -60,7 +61,7 @@ nav {
 }
 footer {
   background-color: var(--primary-color);
-  color: white;
+  color: var(--white);
 }
 a:hover {
   color: var(--accent-color);
@@ -86,7 +87,7 @@ a:hover {
 
 /* *********** Media queries for mobile ************* */
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 768px){
   #nav{
     width: 100%;
     padding: 1rem;
